@@ -17,6 +17,7 @@ db = client.firefly
 baseurl = "https://www.gartner.com"
 url = "https://www.gartner.com/en/conferences/calendar"
 
+
 def beautifycontent(data):
 	pretty = bs(data,'html.parser')
 
